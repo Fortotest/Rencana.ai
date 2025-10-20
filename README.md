@@ -1,59 +1,94 @@
-# Myapp
+# 🤖 Rencana.ai
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.0.
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
-## Development server
+## 1. Project Definition
 
-To start a local development server, run:
+### What is this project?
+Ini adalah *portofolio* proyek **Rencana.ai**, sebuah *Single Page Application (SPA)* yang dibangun menggunakan *framework* **Angular**. 🚀
 
-```bash
-ng serve
-```
+Aplikasi ini dirancang sebagai *dashboard* perencanaan cerdas (sesuai namanya, "Rencana.ai") dan mendemonstrasikan keahlian dalam *modern web development* menggunakan Angular dan TypeScript.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### Tujuan Proyek ✅
+* Membangun aplikasi web yang fungsional dan responsif menggunakan **Angular** (v20+).
+* Menunjukkan penggunaan **TypeScript** untuk pengembangan aplikasi yang *robust* dan *scalable*.
+* Menggunakan **Vite** sebagai *build tool* modern untuk *development server* yang cepat.
+* Mengintegrasikan proyek dengan **Firebase Studio** untuk *backend services* dan *hosting*.
+* Menjadi *showcase* portofolio untuk mendemonstrasikan *skillset* frontend yang spesifik pada ekosistem Angular.
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 2. Tech Stack 🛠️
 
-```bash
-ng generate component component-name
-```
+Proyek ini dibangun menggunakan tumpukan teknologi ekosistem Angular:
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+* **Framework:** [Angular](https://angular.io/) (v20+)
+* **Bahasa:** [TypeScript](https://www.typescriptlang.org/)
+* **Bundler:** [Vite](https://vitejs.dev/) (terdeteksi dari `index.html`)
+* **Platform & Backend:** [Firebase Studio](https://firebase.google.com/) (`GEMINI.md`, `.idx`)
+* **Konfigurasi Angular:** `angular.json`, `tsconfig.app.json`
+* **Struktur:** HTML5 (`index.html` dengan `<app-root>`)
+* **Styling:** CSS3 (`style.css`)
+* **Package Manager:** [NPM](https://www.npmjs.com/)
 
-```bash
-ng generate --help
-```
+---
 
-## Building
+## 3. Installation
 
-To build the project run:
+### Instalasi Awal
+Untuk menjalankan proyek ini secara lokal, Anda perlu menginstal Angular CLI dan dependensi proyek.
 
-```bash
-ng build
-```
+1.  **Clone Repositori**
+    ```bash
+    git clone [https://github.com/Fortotest/Rencana.ai.git](https://github.com/Fortotest/Rencana.ai.git)
+    cd Rencana.ai
+    ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+2.  **Install Angular CLI (Jika Belum)**
+    Anda mungkin memerlukan Angular CLI secara global untuk menjalankan perintah `ng`.
+    ```bash
+    npm install -g @angular/cli
+    ```
 
-## Running unit tests
+3.  **Install Dependensi Node.js**
+    ```bash
+    npm install
+    ```
+    
+4.  **(Opsional) Setup Environment Variables**
+    * Buat file `src/environments/environment.ts` (jika belum ada) untuk kredensial Firebase Anda.
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+---
 
-```bash
-ng test
-```
+## 4. Running the App Locally 🚀
 
-## Running end-to-end tests
+### Menjalankan Aplikasi di Lingkungan Lokal
 
-For end-to-end (e2e) testing, run:
+1.  **Mulai Development Server**
+    Di terminal Anda (di dalam direktori `Rencana.ai`), jalankan perintah Angular CLI:
+    ```bash
+    ng serve
+    ```
+    *(Atau `npm start`, sesuai konfigurasi di `package.json`)*
 
-```bash
-ng e2e
-```
+2.  **Akses Frontend**
+    Buka [http://localhost:4200/](http://localhost:4200/) di browser Anda. Aplikasi akan otomatis me-reload jika Anda mengubah *source file*.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
+## 5. Usage
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### Penggunaan Aplikasi
+* Buka aplikasi di browser Anda untuk melihat *dashboard* fungsional dari **Rencana.ai**.
+* (Tambahkan deskripsi singkat tentang apa yang bisa pengguna lakukan di sini, misal: "Navigasi ke modul perencanaan untuk membuat rencana baru...")
+
+---
+
+## 6. Credits 👤
+
+### Pembuat (Builder)
+**Rizky Fadil (Fortotest)**
